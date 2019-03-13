@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ayu-RK-7DL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Incentro-logo-2018" translatesAutoresizingMaskIntoConstraints="NO" id="c6w-Km-GeD">
+                                <rect key="frame" x="20" y="20" width="335" height="627"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="c6w-Km-GeD" firstAttribute="leading" secondItem="0wO-3D-Cht" secondAttribute="leading" constant="20" id="VCt-1D-h1U"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="c6w-Km-GeD" secondAttribute="bottom" constant="20" id="aJ2-TP-CCH"/>
+                            <constraint firstItem="c6w-Km-GeD" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="cw6-f7-Zhv"/>
+                            <constraint firstItem="0wO-3D-Cht" firstAttribute="trailing" secondItem="c6w-Km-GeD" secondAttribute="trailing" constant="20" id="pdz-nP-suK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0wO-3D-Cht"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Incentro-logo-2018" width="459" height="89"/>
+    </resources>
+</document>
